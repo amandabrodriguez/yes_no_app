@@ -5,7 +5,6 @@ import '../../../../domain/entities/message.dart';
 
 class ChatProvider extends ChangeNotifier {
   final ScrollController chatScrollController = ScrollController();
-  final GetYesNoAnswer getYesNoAnswer = GetYesNoAnswer();
 
   List<Message> messageList = [
     Message(text: 'Hola amor', fromWho: FromWho.me),
